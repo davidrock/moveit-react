@@ -1,3 +1,4 @@
+import { CompletedChallenges } from './components/completed-challenges/CompletedChallenges';
 import { ExperienceBar } from './components/experience-bar/ExperienceBar';
 import { Profile } from './components/profile/Profile';
 
@@ -8,9 +9,11 @@ export default function Home() {
       <section className="grid content-center h-screen grid-cols-2 gap-24">
         <div className="">
           <Profile />
+          <CompletedChallenges />
         </div>
         <div className="">
           <Profile />
+          <CompletedChallenges />
         </div>
       </section>
     </div>
