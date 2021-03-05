@@ -1,9 +1,13 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: 'Inter, Roboto, sans-serif',
+      inter: ['Inter', ...defaultTheme.fontFamily.sans],
+      rajdhani: ['Rajdhani', 'Georgia', ...defaultTheme.fontFamily.sans],
+      gothic: ['DotGothic16', ...defaultTheme.fontFamily.sans]
     },
     extend: {
       width: {

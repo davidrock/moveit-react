@@ -1,4 +1,6 @@
 import { CompletedChallenges } from './components/completed-challenges/CompletedChallenges';
+import { Countdown } from './components/countdown/Countdown';
+
 import { ExperienceBar } from './components/experience-bar/ExperienceBar';
 import { Profile } from './components/profile/Profile';
 
@@ -10,6 +12,7 @@ export default function Home() {
         <div className="">
           <Profile />
           <CompletedChallenges />
+          <Countdown />
         </div>
         <div className="">
           <Profile />
