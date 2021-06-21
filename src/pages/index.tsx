@@ -1,10 +1,11 @@
-import { CompletedChallenges } from './components/completed-challenges/CompletedChallenges';
-import { Countdown } from './components/countdown/Countdown';
+import { CompletedChallenges } from "./components/completed-challenges/CompletedChallenges";
+import { Countdown } from "./components/countdown/Countdown";
 
-import { ExperienceBar } from './components/experience-bar/ExperienceBar';
-import { Profile } from './components/profile/Profile';
+import { ExperienceBar } from "./components/experience-bar/ExperienceBar";
+import { Profile } from "./components/profile/Profile";
 
-import Head from 'next/head';
+import Head from "next/head";
+import { ChallengeBox } from "./components/chalenge-box/ChallengeBox";
 
 export default function Home() {
   return (
@@ -20,11 +21,9 @@ export default function Home() {
           <Countdown />
         </div>
         <div className="">
-          <Profile />
-          <CompletedChallenges />
+          <ChallengeBox />
         </div>
       </section>
     </div>
   );
 }
- 

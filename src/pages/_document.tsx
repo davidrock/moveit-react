@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
             />
           </Head>
         </Head>
-        <body>
+        <body className="bg-gelo">
           <Main />
           <NextScript />
         </body>

@@ -2141,6 +2141,11 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+tailwindcss-percentage-width@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-percentage-width/-/tailwindcss-percentage-width-1.0.1.tgz#d1dfb9d1fa2d6bc6f77ed9914766e73f03539d14"
+  integrity sha512-U2G1EczjOFKjM3OPxzDlr98kcE0E3d7Qk5D2Z4YVIGmIuXW9U0CrgJy5taLsaUsBJu6kYAtXwH8056L+l26BUA==
+
 tailwindcss@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.3.tgz#f8d07797d1f89dc4b171673c26237b58783c2c86"
